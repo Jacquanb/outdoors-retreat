@@ -86,7 +86,55 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+header,
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
 
+ul,
+li {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-right: 20px;
+}
+.header-divider, {
+  si
+}
+
+aside {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-flow: column wrap;
+}
+
+article {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.social {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -260,4 +308,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
