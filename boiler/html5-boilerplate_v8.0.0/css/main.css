@@ -91,8 +91,35 @@ footer {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-flow: row wrap;
+}
+
+.content-wrapper  {
+  width: 90%;
+  margin: 50px 0;
+}
+
+header {
+  padding: 15px 0;
+}
+
+header nav {
+  width: 60%;
+}
+
+header,
+nav,
+ul {
+  width: 80%;
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 0;
 }
 
 ul,
@@ -103,7 +130,7 @@ li {
   padding-right: 20px;
 }
 .header-divider, {
-  si
+  width: 100%;
 }
 
 aside {
@@ -114,12 +141,22 @@ aside {
   flex-flow: column wrap;
 }
 
-article {
-  width: 100%;
+.mission {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.contact-content p {
+  margin: 0;
 }
 
 .social {
@@ -134,6 +171,27 @@ article {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.features article {
+  width: 90%;
+}
+
+.features p {
+  margin: 0;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.reviews h3 {
+  width: 100%;
+}
+
+footer .content-wrapper {
+    width: 55%;
+    margin: 50px 0;
 }
 /* ==========================================================================
    Helper classes
