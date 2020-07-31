@@ -99,7 +99,7 @@ textarea {
    /* Header styles */
 
    header {
-
+     padding: 15px 0;
    }
 
    header .content-wrapper {
@@ -107,6 +107,7 @@ textarea {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     margin: 0;
    }
 
    header figure {
@@ -114,10 +115,13 @@ textarea {
    }
 
    .header-divider {
-
+     width: 100%;
+     height: 1px;
+     margin: 10px 0 20px 0;
    }
 
    header nav {
+     width: 60%;
      display: flex;
      justify-content: space-around;
      align-items: center;
@@ -125,6 +129,7 @@ textarea {
    }
 
    header nav ul {
+     width: 100%;
      display: flex;
      justify-content: space-around;
    }
@@ -141,6 +146,32 @@ textarea {
      align-items: center;
    }
 
+   footer .content-wrapper {
+     width: 55%;
+     margin: 50px 0;
+   }
+
+   .content-wrapper {
+     width: 90%;
+     margin: 50px 0;
+   }
+
+   .footer-content .social {
+     padding-top: 36px;
+   }
+
+   .footer p {
+     margin: 0;
+   }
+
+   footer .contact {
+     margin-bottom: 50px;
+   }
+
+   footer .copyright {
+     margin: 20px 0;
+   }
+
    /*----- Mobile Styles - Hompage ----------*/
 
    /* Hero Area */
@@ -149,6 +180,10 @@ textarea {
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
+   }
+
+   .hero-area h1 {
+     padding-left: 20px;
    }
 
    /* Aside */
@@ -160,12 +195,25 @@ textarea {
      flex-flow: row wrap;
    }
 
+   aside .form-description {
+     padding-left: 20px;
+   }
+
+   aside .form {
+     padding-left: 20px;
+   }
+
+
    /* Features */
 
    .features {
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
+   }
+
+   .features p {
+     margin: 0;
    }
 
    .features .features-items {
@@ -175,12 +223,40 @@ textarea {
      flex-flow: row wrap;
    }
 
+   .features .content-wrapper {
+     width: 100%;
+   }
+
+   .features article {
+     width: 60%;
+     padding-left: 100px;
+     padding-top: 72px;
+     padding-bottom: 72px;
+   }
+
+   .features h2 {
+     padding-left: 20px;
+     padding-top: 54px;
+   }
+
    /* Reviews */
 
    .reviews {
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
+   }
+
+   .reviews h3 {
+     width: 50%;
+   }
+
+   .reviews p {
+     margin: 0;
+   }
+
+   .reviews .content-wrapper {
+     padding-left: 20px;
    }
 
    /* ==========================================================================
@@ -194,11 +270,39 @@ textarea {
      flex-flow: row wrap;
    }
 
+   .mission-content h2 {
+     margin: 0;
+     padding-left: 20px;
+   }
+
+   .mission-content p {
+     margin: 0;
+     padding-left: 20px;
+     padding-top: 18px;
+   }
+
    .contact-section {
      display: flex;
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+   }
+
+   .contact-section h2 {
+     margin: 0;
+     padding-left: 20px;
+   }
+
+   .contact-info h4 {
+     padding-left: 20px;
+     margin: 0;
+   }
+
+   .contact-info p {
+     margin: 0;
+     padding-left: 20px;
+     padding-top: 18px;
+     padding-bottom: 18px;
    }
 
    /* ==========================================================================
@@ -219,11 +323,19 @@ textarea {
      flex-flow: row wrap;
    }
 
+   .faq-content {
+     padding-left: 20px;
+   }
+
+   .faq-content p {
+     margin: 0;
+   }
+
 
    /* footer */
 
    footer {
-
+     flex-direction: column;
    }
 
 
@@ -316,7 +428,24 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
+@media only screen and (min-width: 768px) {
+  /*tablet styles here*/
+}
 
+/******tablet structure******/
+
+/* General styles */
+.content-wrapper {
+  max-width: 640px;
+  margin: 100px 0;
+}
+
+
+
+
+@media only screen and (min-width: 768px) (
+  /*desktop styles here*/
+  )
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
