@@ -182,9 +182,6 @@ textarea {
      flex-flow: row wrap;
    }
 
-   .hero-area h1 {
-     padding-left: 20px;
-   }
 
    /* Aside */
 
@@ -193,14 +190,6 @@ textarea {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
-   }
-
-   aside .form-description {
-     padding-left: 20px;
-   }
-
-   aside .form {
-     padding-left: 20px;
    }
 
 
@@ -212,8 +201,13 @@ textarea {
      flex-flow: row wrap;
    }
 
-   .features p {
-     margin: 0;
+   .features h2 {
+     margin-bottom: 60px;
+   }
+
+   .features article {
+     width: 63%;
+     margin: 30px 0;
    }
 
    .features .features-items {
@@ -223,20 +217,8 @@ textarea {
      flex-flow: row wrap;
    }
 
-   .features .content-wrapper {
-     width: 100%;
-   }
-
-   .features article {
-     width: 60%;
-     padding-left: 100px;
-     padding-top: 72px;
-     padding-bottom: 72px;
-   }
-
-   .features h2 {
-     padding-left: 20px;
-     padding-top: 54px;
+   .features p {
+     margin: 0;
    }
 
    /* Reviews */
@@ -430,15 +412,133 @@ textarea {
 
 @media only screen and (min-width: 768px) {
   /*tablet styles here*/
+
+  /******tablet structure******/
+
+  /* General styles */
+  .content-wrapper {
+    max-width: 640px;
+    margin: 100px 0;
+  }
+
+  /* Header */
+  header {
+    justify-content: space-around;
+    padding: 33px 0;
+  }
+
+  header .content-wrapper {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  header nav {
+    width: 25%;
+  }
+
+  header nav ul {
+    justify-content: space-between;
+  }
+
+  .header-divider {
+    display: none;
+  }
+
+  /*aside*/
+
+  aside .content-wrap {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 40%;
+    margin: 0;
+  }
+
+  /* Features */
+  .features article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    flex-basis: 50%;
+  }
+
+  .features .features-item-description {
+    width: 50%;
+  }
+
+  /* Reviews */
+
+  .reviews {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+
+  .reviews h2 {
+    margin-bottom: 40px;
+  }
+
+  .reviews h3 {
+    width: 55%;
+    margin: 20px 0;
+  }
+
+  /* ==========================================================================
+     About Page
+     ========================================================================== */
+
+  .mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  .contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  .contact-content p {
+    margin: 0;
+  }
+
+  /* ==========================================================================
+     FAQ Page
+     ========================================================================== */
+
+  .faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  .faq .content-wrapper {
+    margin: 50px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  .faq h2 {
+    margin-bottom: 40px;
+  }
+
+  .faq-content {
+    margin-bottom: 50px;
+  }
 }
 
-/******tablet structure******/
-
-/* General styles */
-.content-wrapper {
-  max-width: 640px;
-  margin: 100px 0;
-}
 
 
 
