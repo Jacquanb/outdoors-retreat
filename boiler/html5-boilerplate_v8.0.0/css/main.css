@@ -297,6 +297,11 @@ input[type=button] {
 
    /* Features */
 
+   .features i {
+	    font-size: 3.75em;
+        margin-bottom: 40px;
+      }
+
    .features {
      background: url('../img/unsplash.jpg');
      background-size: cover;
@@ -310,6 +315,14 @@ input[type=button] {
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
+   }
+
+   article {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+     padding-left: 40px;
    }
 
    .features h2 {
