@@ -375,6 +375,7 @@ input[type=button] {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     background: #527158;
    }
 
    .mission-content h2 {
@@ -393,6 +394,7 @@ input[type=button] {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     background: #2a423a;
    }
 
    .contact-section h2 {
@@ -436,6 +438,7 @@ input[type=button] {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     background: #527158;
    }
 
    .faq .content-wrapper {
@@ -601,6 +604,7 @@ input[type=button] {
   }
 
   /* Features */
+
   .features article {
     display: flex;
     justify-content: center;
